@@ -1,0 +1,90 @@
+/* Pongo fondo y doy posición al artículo de los playoffs */
+.article_playoffs {
+  /* border: solid 1px white; */
+  background: url(../assets/images/degradado_down.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  width: 1100px;
+  margin: 30px auto 20px;
+  padding: 5px 0 10px;
+}
+/* Doy tamaño y posición a la imagen del cuadro de playoffs */
+/* doy padding top para la posición de la imagen del anillo */
+.contenedor_img_playoffs {
+  background: url(../assets/images/playoffs.png);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 950px;
+  height: 350px;
+  margin: 20px auto;
+  padding-top: 65px;
+}
+.imagen_playoffs {
+  width: 100%;
+}
+/* Doy tamaño a la imagen del anillo */
+.contenedor_anillo {
+  width: 110px;
+  margin: 0 auto;
+}
+.imagen_anillo {
+  width: 100%;
+  box-shadow: 4px 3px 10px rgb(216, 176, 14);
+}
+/* tamaño del contenedor del texto de playoffs */
+.contenedor_texto_playoffs {
+  /* border: 1px solid red; */
+  width: 730px;
+  margin: 5px auto;
+}
+/* formato del texto de playoffs */
+.article_playofs_texto {
+  font-family: Roboto;
+  text-align: justify;
+}
+/* para la linea divisoria */
+.linea_divisoria {
+  width: 1100px;
+  border-bottom: 20px solid black;
+  margin: 20px auto;
+}
+/* tamaño y formato para el contenedor del artículo del mvp de las finales */
+.article_mvpfinals {
+  /* border: solid 1px white; */
+  width: 1100px;
+  background: url(../assets/images/degradado_up.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin: 15px auto 30px;
+  padding: 5px 0 10px;
+}
+/* titulo del artículo del mvp de las finales */
+.article_titulo_mvpfinals {
+  width: 350px;
+  margin: 15px auto 30px;
+  border-bottom: 1px solid whitesmoke;
+  font-size: 2.2rem;
+}
+/* tamaño de la imagen del mvp de las finales */
+.contenedor_img_mvpfinals {
+  width: 400px;
+  display: inline-block;
+  margin: 5px 30px 30px;
+}
+.imagen_mvpfinals {
+  width: 100%;
+}
+/* tamaño y formato del texto del artículo del mvp de las finales */
+.contenedor_texto_mvpfinals {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  text-align: justify;
+  font-family: Roboto;
+}
+/* Formato para el header del artículo */
+.article_titulogiannis {
+  margin: 0;
+  font-size: 1.6rem;
+}

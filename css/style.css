@@ -1,0 +1,138 @@
+/* Este es el css común, en el que están las cosas iguales para varias páginas */
+/* Le doy un fondo y un formato general a la página: */
+body {
+  background: url(../assets/images/fondo1.jpg);
+  background-attachment: fixed;
+  background-color: #161616;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  color: whitesmoke;
+  font-family: Bebas;
+}
+/* para todos los enlaces que ponga */
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* Cargo algunas fuentes que voy a utilizar */
+@font-face {
+  font-family: Cavs;
+  src: url(../assets/fuentes/nba-cavaliers-regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fuentes/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bebas;
+  src: url(../assets/fuentes/BebasNeue-Regular.ttf);
+}
+/* Para los header */
+.header {
+  /* border: 1px solid green; */
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.625);
+}
+/* Le doy medidas al logo del header */
+.header_logo {
+  height: 70px;
+  padding: 10px 30px;
+  vertical-align: middle;
+}
+.header_logo_imagen {
+  height: 100%;
+}
+/* Formato para el título de la página */
+.header_titulo {
+  display: inline-block;
+  font-size: 3rem;
+  margin: 0 5px;
+  vertical-align: bottom;
+  font-family: Cavs;
+  padding-bottom: 10px;
+}
+/* Formato para el nav*/
+.lista_nav {
+  /* border: 1px solid white; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.elementos_lista_nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* formato para los botones del nav */
+.contenedor_boton_nav {
+  /* border: 1px solid red; */
+  padding: 5px 40px 15px;
+  width: 110px;
+  font-family: Bebas;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgba(245, 245, 245, 0.626);
+}
+/* Le doy formato al boton de la página en la que me encuentre */
+.contenedor_boton_nav_actual {
+  padding: 5px 40px 15px;
+  width: 110px;
+  font-family: Bebas;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(245, 245, 245);
+  background-color: rgba(255, 255, 255, 0.24);
+}
+/* Formato de los botones del nav cuando está el cursor */
+.contenedor_boton_nav:hover {
+  color: rgb(245, 245, 245);
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+/* Centro el main */
+.main {
+  /* border: 1px solid blue; */
+  text-align: center;
+  margin: 10px auto;
+}
+/* centro y doy formato al footer */
+.footer {
+  margin: 45px auto;
+  width: 600px;
+  border-top: 1px solid white;
+}
+/* formato de la lista del footer */
+.lista_footer {
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+/* Le doy tamaño a los iconos del footer */
+.footer_contenedor_logo {
+  width: 55px;
+  display: inline-block;
+  padding: 0 25px;
+  border-radius: 50%;
+}
+.footer_imagen {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+/* para que el icono del footer se levante cuando esté el cursor */
+.footer_imagen:hover {
+  margin: 15px 0;
+}
+/* clase para cuando quiera resaltar algo en negrita */
+.blond {
+  font-weight: bold;
+}
+/* intercambio de color en las filas de las tablas */
+.tabla_fila_par td {
+  background-color: rgba(255, 255, 255, 0.09);
+}

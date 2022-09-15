@@ -1,0 +1,55 @@
+/* Doy tamaño y posición a los contenedores de las conferencias */
+.contenedor_conf {
+  /* border: 1px solid red; */
+  width: 1100px;
+  margin: 30px auto 50px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+/* Formato del título de las conferencias */
+.titulo_conferencia {
+  width: 350px;
+  font-size: 2rem;
+  margin: 0px auto;
+  padding: 30px 0 0;
+  border-bottom: 1px solid whitesmoke;
+}
+/* Formato general y tamaño para las tablas */
+.tabla_conf {
+  /* border: 2px solid rgb(255, 255, 255); */
+  width: 1000px;
+  margin: 15px auto;
+  border-collapse: collapse;
+}
+/* formato para todas las celdas */
+.celdas {
+  font-family: Roboto;
+  font-size: 0.85rem;
+  /* border: 1px solid white; */
+  margin: 5px auto;
+  width: 50px;
+  padding: 10px 8px;
+}
+/* tamaño para las celdas del nombre */
+.celda_nombre {
+  width: 210px;
+}
+/* formato para la primera fila de las tablas */
+.tabla_fila_primera td {
+  font-weight: bold;
+  font-size: 0.95rem;
+  font-variant: small-caps;
+  background-color: rgba(129, 9, 25, 0.678);
+}
+/* linea divisoria que indica qué equipos entran directamente a playoffs */
+.linea_playoffs td {
+  border-bottom: 1px solid whitesmoke;
+}
+/* linea divisoria que indica qué equipos jugarán play in */
+.linea_playin td {
+  border-bottom: 2.5px solid whitesmoke;
+}
+/* para que se destaque la fila en la que se encuentra el cursor */
+.tabla_filas:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}

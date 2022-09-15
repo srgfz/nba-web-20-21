@@ -1,0 +1,88 @@
+/* doy tamaño y posición a las secciones */
+.section_stats {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 1200px;
+  margin: 30px auto 50px;
+  padding-bottom: 30px;
+}
+/* formato para el título de las secciones */
+.section_stats_titulo {
+  width: 350px;
+  font-size: 2rem;
+  margin: 0px auto 15px;
+  padding: 30px 0 0;
+  border-bottom: 1px solid whitesmoke;
+}
+/* formato general para las tablas */
+.tabla_stats {
+  border-collapse: collapse;
+  margin: 10px 15px;
+  text-align: left;
+  border: 1px solid rgba(247, 247, 247, 0.678);
+  display: inline-block;
+}
+/* formato para todas las celdas */
+.celdas_stats {
+  /* border: 1px solid white; */
+  padding: 0 5px;
+  font-family: Roboto;
+  font-size: 0.85rem;
+}
+/* formato para las celdas del título de las tablas */
+.celdas_stats_titulo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-variant: small-caps;
+  background-color: rgba(129, 9, 25, 0.678);
+  text-align: center;
+  padding: 10px;
+}
+/* Formato para las celdas de la primera fila después del título */
+.fila_primera td {
+  font-variant: small-caps;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.678);
+  background-color: rgba(255, 255, 255, 0.466);
+  text-align: center;
+  padding: 0 15px;
+  font-size: 1.1rem;
+}
+/* Formato y tamaño distinto para la imagen de los primeros de las tablas */
+.contenedor_img_stats_primero {
+  height: 120px;
+}
+/* formato y tamaño para la imagen de los demás */
+.contenedor_img_stats {
+  height: 80px;
+  width: 110px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.img_stats {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Formato para el texto y los promedios de los primeros de las tablas */
+.celda_stats_nombre_primero {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 0 0;
+  width: 120px;
+}
+.celdas_stats_promedio_primero {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* formato para el nombre y los promedios de los demás */
+.celda_stats_nombre {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 10px 0 0;
+}
+.celdas_stats_promedio {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

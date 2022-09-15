@@ -1,0 +1,163 @@
+.contenedor_up {
+  /* border: 1px solid pink; */
+  margin: 5px auto;
+  width: 1200px;
+}
+.contenedor_down {
+  /* border: 1px solid pink; */
+  margin: 0 auto 15px;
+  width: 1200px;
+}
+/* contenedor para el botón de la temporada regular */
+.contenedor_temporada {
+  /* border: 1px solid red; */
+  width: 840px;
+  height: 340px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/* Doy tamaño a la imagen del botón de la temporada regular */
+.contenedor_temporada_imagen {
+  /* border: 1px solid green; */
+  background-image: url(../assets/images/lebron1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
+  margin: 20px auto;
+  width: 800px;
+  height: 300px;
+}
+/* contenedor para el botón de los premios individuales */
+.contenedor_mvp {
+  /* border: 1px solid red; */
+  width: 260px;
+  height: 340px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/* Doy tamaño a la imagen del botón de los premios individuales */
+.contenedor_mvp_imagen {
+  /* border: 1px solid green; */
+  background: url(../assets/images/jokic4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  margin: 20px auto;
+  width: 220px;
+  height: 300px;
+}
+/* contenedor para el botón de los líderes de la liga*/
+.contenedor_stats {
+  /* border: 1px solid red; */
+  width: 260px;
+  height: 340px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/* Doy tamaño a la imagen del botón de los líderes de la liga */
+.contenedor_stats_imagen {
+  /* border: 1px solid green; */
+  background: url(../assets/images/curry4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  margin: 20px auto;
+  width: 220px;
+  height: 300px;
+}
+/* contenedor para el botón de los playoffs */
+.contenedor_playoffs {
+  /* border: 1px solid red; */
+  width: 840px;
+  height: 340px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/* Doy tamaño a la imagen del botón de los playoffs */
+.contenedor_playoffs_imagen {
+  /* border: 1px solid green; */
+  background-image: url(../assets/images/trofeo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 20px auto;
+  width: 800px;
+  height: 300px;
+}
+/* Pongo un filtro gris transparente con las medidas de los botones horizontales */
+.contenedor_transparente_horizontal {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0);
+  width: 800px;
+  height: 300px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+}
+/* Pongo un filtro gris transparente con las medidas de los botones verticales */
+.contenedor_transparente_vertical {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0);
+  width: 220px;
+  height: 300px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+}
+/* Para las imagenes se expandan cuando el cursor esté en los botones */
+.contenedor_temporada_imagen:hover {
+  /* border: 1px solid green; */
+  width: 840px;
+  height: 340px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 1);
+  background-position: 50% 65%;
+}
+.contenedor_mvp_imagen:hover {
+  /* border: 1px solid green; */
+  width: 260px;
+  height: 340px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 1);
+  background-position: 50% 40%;
+}
+.contenedor_playoffs_imagen:hover {
+  /* border: 1px solid green; */
+  width: 840px;
+  height: 340px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 1);
+  background-position: 50% 50%;
+}
+.contenedor_stats_imagen:hover {
+  /* border: 1px solid green; */
+  width: 260px;
+  height: 340px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 1);
+  background-position: 50% 50%;
+}
+/* para quitar el filtro transparente cuando el cursor esté en el botón */
+.contenedor_transparente_horizontal:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
+  width: 840px;
+  height: 340px;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+}
+.contenedor_transparente_vertical:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
+  width: 260px;
+  height: 340px;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+}
+/* Doy formato a los textos de los botones */
+.nav_texto {
+  padding-top: 175px;
+  font-family: Bebas;
+}

@@ -1,0 +1,64 @@
+/* Doy formato a los artículos con la foto a la izquierda */
+.article_foto_izq {
+  background: url(../assets/images/degradado_drch.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  width: 1100px;
+  margin: 30px auto 30px;
+  padding: 5px 0 25px;
+  font-family: Bebas;
+}
+/* doy medida y posición a la imagen de la izquierda */
+.contenedor_img_izq {
+  /* border: 1px solid red; */
+  height: 270px;
+  display: inline-block;
+  text-align: left;
+  padding: 0 10px;
+}
+/* Doy formato a los artículos con la foto a la derecha */
+.article_foto_drch {
+  background: url(../assets/images/degradado_izq.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 5px 0 25px;
+  font-family: Bebas;
+}
+/* doy medida y posición a la imagen de la derecha */
+.contenedor_img_drch {
+  /* border: 1px solid red; */
+  height: 270px;
+  display: inline-block;
+  text-align: left;
+  padding: 0 10px;
+}
+.imagen_article {
+  height: 100%;
+}
+/* Formato de los títulos de los artículos */
+.article_titulo {
+  font-size: 2.2rem;
+  border-bottom: 1px solid whitesmoke;
+  width: 300px;
+  margin: 10px auto 30px;
+}
+/* Formato de los header de los artículos */
+.article_ganador {
+  font-weight: bold;
+  font-family: Cavs;
+  font-size: 1.35rem;
+  margin-top: 0;
+}
+/* Formato del texto de los artículos */
+.contenedor_texto {
+  /* border: 1px solid blue; */
+  display: inline-block;
+  width: 380px;
+  text-align: justify;
+  vertical-align: top;
+  padding: 0 25px;
+  font-size: 1rem;
+  font-family: Roboto;
+}
